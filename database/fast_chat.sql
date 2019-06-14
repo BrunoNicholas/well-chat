@@ -58,11 +58,6 @@ CREATE TABLE IF NOT EXISTS `chats` (
 -- Dumping data for table `chats`
 --
 
-INSERT INTO `chats` (`id`, `id_sender`, `id_receiver`, `topic`, `message`, `category`) VALUES
-(7, 2, 1, 'Are you selling?', 'Tomatoes?', ''),
-(6, 1, 1, 'Good Morning!', 'Again, Please answer', ''),
-(5, 2, 2, 'Good Morning!', 'Are you okay?', '');
-
 -- --------------------------------------------------------
 
 --
@@ -83,14 +78,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 -- Dumping data for table `users`
 --
-
-INSERT INTO `users` (`id`, `name`, `full_name`, `email`, `password`, `agreement`) VALUES
-(1, 'Nibro', 'Nicholas Bruno', 'sbnibro256@gmail.com', 'dollar', 1),
-(2, 'basing', 'Namara Bessing', 'bnamara@gmail.com', 'dollar', 1),
-(3, 'tare', 'Taremwa', 'taremwa@gmail.com', 'dollar', 1),
-(4, 'Buno', 'Nicholas SBN', 'bruno.nicholas@gmail.com', 'dollar', 1),
-(5, 'Naguwa', 'Naguwa Hist', 'naghi@gmail.com', 'bcrypt(dollar)', 1);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

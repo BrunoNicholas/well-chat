@@ -37,7 +37,7 @@
 											if ($res->num_rows > 0) {
 												while ($row = $res->fetch_assoc()) {
 											?>
-												<li><?php echo $row['full_name'] . " - " . $row["email"]; ?></li>
+												<li title="Username: <?php echo $row['name'] ?>"><?php echo $row['full_name'] . " - " . $row["email"]; ?></li>
 										<?php } } $conn->close(); ?>
 									</ol>
 								</div>
