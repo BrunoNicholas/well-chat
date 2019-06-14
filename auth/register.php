@@ -10,7 +10,7 @@
 	// $confim_password = $_POST['confim_password'];
 	$agreement	= $_POST['agreement'];
 
-	$sql_1	=	"INSERT INTO users (name, full_name, email, password, agreement) VALUES ('$name','$full_name','$email','$password','$agreement')";
+	$sql_1	=	"INSERT INTO chat_users (name, full_name, email, password, agreement) VALUES ('$name','$full_name','$email','$password','$agreement')";
 
 	$result 	=	$conn->query($sql_1);
 

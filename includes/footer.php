@@ -1,8 +1,8 @@
 <!-- // footer.php -->
-	</main>
+	</main><!-- 
 	<footer class="section">
 		
-	</footer>
+	</footer> -->
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
