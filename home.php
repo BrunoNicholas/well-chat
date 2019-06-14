@@ -43,7 +43,7 @@
 														<i class="col-md-10"><?php echo $row['full_name'] . " - " . $row["email"]; ?></i>
 														<form action="chat/del_user.php" method="POST" class="col-md-2">
 															<input type="hidden" name="id" value="<?php echo($row['id']); ?>">
-															<button type="submit" <?php if ($row['id'] == $_SESSION['id']){ ?> class="btn btn-xs btn-danger hidden" <?php } else { ?> class="btn btn-xs btn-danger" <?php }?> title="Delete user <?php echo($row['id']); ?>" ><i class="fa fa-remove"></i></button>
+															<button type="submit" <?php if ($row['id'] == $_SESSION['id']){ ?> class="btn btn-xs btn-danger hidden" <?php } else { ?> class="btn btn-xs btn-danger" <?php }?> title="Delete user <?php echo($row['id']); ?>" onclick="return confirm('Are you sure you want to delete?')"><i class="fa fa-remove"></i></button>
 														</form>
 													</div>
 												</li>
@@ -86,7 +86,7 @@
 																<td>
 																	<form action="chat/delete.php" method="POST">
 																		<input type="hidden" name="id" value="<?php echo( $row['id']);?>">
-																		<button type="submit" class="btn btn-xs btn-danger" title="Delete Message <?php echo( $row['id']);?>"><i class="fa fa-remove"></i></button>
+																		<button type="submit" class="btn btn-xs btn-danger" title="Delete Message <?php echo( $row['id']);?>" onclick="return confirm('Are you sure you want to delete?')"><i class="fa fa-remove"></i></button>
 																	</form>
 																</td>
 															</tr>
