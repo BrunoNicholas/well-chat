@@ -1,0 +1,13 @@
+/* style.css */
+
+header, main, footer {
+	margin-right: 15%;
+	margin-left: 15%;
+	min-height: 150px;
+}
+main {
+	min-height: 300px;
+}
+#chat_space {
+	padding: 5px; margin: 5px; height: 150px; overflow-y: auto; border: thin solid #e5e5a2;
+}
