@@ -6,7 +6,7 @@ You are warmly welcome to my chat test application
 1. Clone this repository into the ```www``` folder of your local server or another named folder but in your serve repository as so
 
 ```bash
-  https://github.com/BrunoNicholas/well-chat.git
+  git clone https://github.com/BrunoNicholas/well-chat.git
 ```
 
 2. Go into your ```phpmyadmin``` page or your sql terminal and create a database called ```fast_chat```.
