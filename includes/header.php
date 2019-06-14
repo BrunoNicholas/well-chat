@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html style="height:100%">
 <head>
-	<title>Authentication | Bruno Chat Section</title>
+	<title>My Chat | Bruno Nicholas</title>
 	<meta charset="utf-8">
 	<meta name="author" content="Blessing Namara">
 
